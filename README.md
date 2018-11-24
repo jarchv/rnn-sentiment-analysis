@@ -4,10 +4,10 @@ We train a Recurrent Neural Network(LSTM network) about two layers of bidirectio
 
 Default parameters:
 
-    * learning_rate    = 0.001
-    * batch_size       = 500
+    * learning_rate    = 0.01
+    * batch_size       = 600
     * training_steps   = 10
-    * emb_size         = 100 (dimension of word embeddings)
-    * num_hidden_units = 10
+    * emb_size         = 32 (dimension of word embeddings)
+    * num_hidden_units = 16
     * number_of_layers = 2
-    * seq_max_len      = 400
+    * seq_max_len      = 600
